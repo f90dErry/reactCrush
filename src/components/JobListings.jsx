@@ -19,7 +19,7 @@ const JobListings = ({isHome = false}) => {
             } finally {
                 setLoading(false);
             }
-            
+             
         }
         fetchJobs(); 
     }, []);
